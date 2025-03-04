@@ -1,0 +1,6 @@
+[
+  {
+    "type": "sqlite",
+    "path": "/home/audin/PRIVE/PERSO/Laravel/blog-test-api/database/database.sqlite"
+  }
+]
