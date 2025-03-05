@@ -64,5 +64,14 @@ class Post extends Model
     {
         return $this->morphMany(Like::class, 'likeable');
     }
+
+    /**
+     * Retourne tout les commentaire associé à ce post
+     *
+     * @return HasMany
+     */
+    public function comments(): HasMany{
+        return $this->hasMany(Comment::class);
+    }
 }
 

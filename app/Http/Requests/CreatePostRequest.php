@@ -79,7 +79,6 @@ class CreatePostRequest extends FormRequest
             'status_code' => 422,
             'message' => 'Erreur de validation',
             'errorsList' => $validator->errors(),
-            'data' => request()->all(),
         ]));
     }
 

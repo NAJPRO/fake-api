@@ -64,8 +64,9 @@ class User extends Authenticatable
         return $this->hasMany(Post::class);
     }
 
+
     /**
-     * Return all comments for a user
+     * Retourne tout les commentaire d'un utilisateur
      *
      * @return HasMany
      */
@@ -73,5 +74,4 @@ class User extends Authenticatable
         return $this->hasMany(Comment::class);
     }
 
-   
 }
